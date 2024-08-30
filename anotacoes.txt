@@ -1,0 +1,4 @@
+parei na pag 22, que diz: "Por fim, basta importar nas rotas e testar, mas isso iremos fazer só após integrar com a API, senão iremos ficar sem token e não acessaremos as páginas"
+
+npx create-react-app blog
+npm install react-router-dom localforage match-sorter sort-by react-bootstrap bootstrap sass
