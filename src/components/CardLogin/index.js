@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { Button, Card, Form } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
-import styles from './styles.module.scss';
+import styles from '../Post/styles.module.scss';
 import { AlertContext } from "../../context/alert";
 export default function CardLogin() {
     const { setMessage, setShow, setVariant } = useContext(AlertContext);

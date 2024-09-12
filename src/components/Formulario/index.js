@@ -6,12 +6,16 @@ import {
     Form,
     Row
 } from "react-bootstrap";
-import styles from './styles.module.scss';
+import styles from '../Post/styles.module.scss'
 
 export default function Formulario() {
     var [author, setAuthor] = useState('');
     var [title, setTitle] = useState('');
     var [text, setText] = useState('');
+
+    const handleSubmit = () => {
+        console.log("oi")
+    };
 
     return (
         <Container>

@@ -5,7 +5,7 @@ import {
     Form
 } from "react-bootstrap";
 import axios from 'axios';
-import styles from './styles.module.scss';
+import styles from '../Post/styles.module.scss'
 import { AlertContext } from "../../context/alert";
 
 export default function CardRegister() {

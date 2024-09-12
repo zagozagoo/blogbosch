@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import styles from './styles.module.scss';
+import styles from "../../components/Post/styles.module.scss"
 import CardRegister from "../../components/CardRegister";
 import AlertComponent from "../../components/AlertComponent";
 

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Alert } from "react-bootstrap";
 import { AlertContext } from "../../context/alert";
-import styles from './styles.module.scss';
+import styles from "../Post/styles.module.scss";
 
 export default function AlertComponent() {
     const { message, variant, show, setShow } = useContext(AlertContext);

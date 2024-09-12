@@ -4,8 +4,7 @@ import {
     Card,
     Container
 } from 'react-bootstrap'
-import { AiOutlineLike } from 'react-icons/ai'
-import styles from './style.module.scss';
+import styles from './styles.module.scss'
 
 export default function Post() {
     var [artigos, setArtigos] = useState([]);
@@ -41,7 +40,7 @@ export default function Post() {
                     <Card.Body className={styles.card__body}>
                         <Card.Text className={styles.card__body__article}>{artigo.text}</Card.Text>
                         <div className='d-flex align-items-center '>
-                            {artigo.likes}<Button variant='light'><AiOutlineLike /></Button>
+                            {artigo.likes}<Button variant='light'></Button>
                         </div>
                     </Card.Body>
                 </Card>

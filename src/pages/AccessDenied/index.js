@@ -1,6 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { BsSignStopFill } from 'react-icons/bs'
-import styles from './styles.module.scss';
+import styles from '../Post/styles.module.css'
 
 export function AccessDenied() {
     return (
